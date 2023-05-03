@@ -1,0 +1,34 @@
+.table-container{
+  max-height: 250px;/*scroll*/
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+#divparent{
+  display: inline-block;/*ajustar contenido al div*/
+}
+table{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color:lightgray; /*table color*/
+  border-collapse: collapse;/*borders*/
+  border: 2px solid black;
+  font-weight: bold;
+}
+.table-style td, .table-style th {
+  border: 1px solid black;
+  padding: 8px;
+}
+.table-style{
+  /* width: 430px; */
+  width: 100%;
+  max-width: 400px;
+  table-layout: fixed;
+}
+
+
+
+
+
+
+
+
+

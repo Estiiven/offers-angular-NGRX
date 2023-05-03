@@ -1,0 +1,40 @@
+<div id="gen" *ngIf="offer">
+    <div>
+      <strong>
+        <h3>Precios:</h3>
+        <table
+         class="table-style"
+         id="tabla"
+         border="1"
+         *ngFor=" let aux of offer.versions">
+          <tr
+          *ngFor="let ite of aux.productOfferingPrices">
+            <td >
+              {{ite.versions[0].name}}
+            </td>
+          </tr>
+        </table>
+      </strong>
+    </div>
+    <div>
+      <strong>
+        <h3 id="title">Monto:</h3>
+        <table
+          class="table-style"
+          id="tabla2"
+          border="1"
+          *ngFor=" let aux of offer.versions"
+          >
+          <tr
+            *ngFor="let ite of aux.productOfferingPrices">
+            <td>
+              {{ite.versions[0].price.amount}}
+            </td>
+          </tr>
+        </table>
+      </strong>
+    </div>
+</div>
+
+
+

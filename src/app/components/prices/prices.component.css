@@ -1,0 +1,28 @@
+.table-style {
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+.table-style td, .table-style th {
+  border: 1px solid black;
+  padding: 8px;
+
+}
+#gen{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+}
+table{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color:lightgray;
+  border-collapse: collapse;
+}
+#tabla, #tabla2{
+  /* width: 250px; */
+  width: 100%;
+  max-width: 400px;
+  table-layout: fixed;
+}
+
+
