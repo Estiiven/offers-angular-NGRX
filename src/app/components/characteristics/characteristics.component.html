@@ -1,12 +1,14 @@
 <h3>Caracteristicas:</h3>
 <div *ngIf="offer" id="divparent">
   <div class="table-container">
-    <table class="table-style" *ngFor="let aux of offer.versions">
-      <tr *ngFor="let ite of aux.characteristics">
+    <div style="height: 300px; width: 300px; border-style: groove; background-color: lightgray;">
+      <table class="table-style" *ngFor="let aux of offer.versions">
+        <tr *ngFor="let ite of aux.characteristics">
           <td>
             {{ite.versions[0].name}}
           </td>
-      </tr>
-    </table>
+        </tr>
+      </table>
+    </div>
   </div>
 </div>

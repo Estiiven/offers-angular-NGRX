@@ -1,7 +1,7 @@
 .solid {
-  border-style: solid;
+  border-style: groove;
   border-width: 2px;
-  border-radius: 6px;
+  /* border-radius: 6px; */
   width: 45%;
   text-align: center;
   margin: 0px auto;

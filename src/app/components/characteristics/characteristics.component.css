@@ -9,12 +9,13 @@
 table{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color:lightgray; /*table color*/
-  border-collapse: collapse;/*borders*/
-  border: 2px solid black;
+  border-collapse: collapse;
+  /* border: 2px solid black; */
   font-weight: bold;
 }
 .table-style td, .table-style th {
-  border: 1px solid black;
+  /* border: 1px solid black; */
+  border-style: groove;
   padding: 8px;
 }
 .table-style{
