@@ -4,7 +4,7 @@ Este secillo proyecto fue realizado a partir del planteamiento de una prueba té
 ![prueba](https://github.com/Estiiven/offers-angular-NGRX/assets/48731786/badf851d-ed8e-4ce9-bf0b-ecf103eb8563)
 
 ## Herramientas utilizadas para realización
-ANGULAR 14
+ANGULAR 14-NGRX-JS-EXPRESS-
 
 ## Ejecución del proyecto
 
