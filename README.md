@@ -1,8 +1,6 @@
 ## APP OFERTAS ANGULAR
-
 Este secillo proyecto fue realizado a partir deL planteamiento de una prueba técnica emitida por la empresa "metnet" para el puesto de desarrollador angular, la cual se realiza únicamente con fines académicos. El planteamiento consta del enunciado y un archivo (ofertas.json) el cual esta alojado en el proyecto.
-
-###Planteamiento
+### Planteamiento
 ![prueba](https://github.com/Estiiven/offers-angular-NGRX/assets/48731786/badf851d-ed8e-4ce9-bf0b-ecf103eb8563)
 
 ## Herramientas utilizadas para realización
