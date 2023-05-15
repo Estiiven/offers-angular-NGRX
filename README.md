@@ -7,7 +7,7 @@ El proyecto consta de tres componentes (Offer, Chacacteristics y Prices). En el 
 Para la comunicación del componente con la capa de servicios se implementó el patrón reducer, diferenciando cada uno de las capas requeridas Reducer, Effect, Action y  Selector.
 
 ## Herramientas utilizadas para realización
-ANGULAR11
+ANGULAR 14
 
 ## Code scaffolding
 
