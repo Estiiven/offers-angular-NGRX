@@ -2,11 +2,8 @@
 
 Este secillo proyecto fue realizado a partir deL planteamiento de una prueba técnica emitida por la empresa "metnet" para el puesto de desarrollador angular, la cual se realiza únicamente con fines académicos. El planteamiento consta del enunciado y un archivo (ofertas.json) el cual esta alojado en el proyecto.
 
+##Planteamiento
 ![prueba](https://github.com/Estiiven/offers-angular-NGRX/assets/48731786/badf851d-ed8e-4ce9-bf0b-ecf103eb8563)
-
-El proyecto consta de tres componentes (Offer, Chacacteristics y Prices). En el componente de "Offer" se muestra el id de la oferta y el nombre de la oferta. En el componente de “Characteristics”, se detalla todas las características que tiene la oferta y en el componente “Prices” se listan los precios de la oferta y el monto. En una lista desplegable se listan los nombres de las ofertas y cada vez que se cambia la oferta se despliega la información en los componentes previamente mencionados.
-
-Para la comunicación del componente con la capa de servicios se implementó el patrón reducer, diferenciando cada uno de las capas requeridas Reducer, Effect, Action y  Selector.
 
 ## Herramientas utilizadas para realización
 ANGULAR 14
@@ -17,9 +14,11 @@ Front-End: Dentro de la carpeta del proyecto ejecutar el comando "ng serve", lue
 API: dentro de la carpeta de la api ejecutar el comando "node src".
 
 ## Apariencia - Funcionamiento
-
-
-
+### Ofertas cargadas
+![one](https://github.com/Estiiven/offers-angular-NGRX/assets/48731786/9087d0e9-4104-40fe-8364-10cebf55f741)
+### Oferta seleccionada
+![two](https://github.com/Estiiven/offers-angular-NGRX/assets/48731786/aaa7ffc0-63f0-4bf3-9341-bcb648296910)
+![three](https://github.com/Estiiven/offers-angular-NGRX/assets/48731786/f849736f-4193-4323-9caa-53d171fe9a7f)
 
 ## Running unit tests
 
