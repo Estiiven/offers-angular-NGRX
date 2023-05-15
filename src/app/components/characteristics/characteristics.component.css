@@ -1,28 +1,31 @@
+table{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-collapse: collapse;
+  font-weight: bold;
+}
 .table-container{
   max-height: 250px;/*scroll*/
   overflow-x: hidden;
   overflow-y: scroll;
+  background-color: #FFFFFF;
 }
 #divparent{
-  display: inline-block;/*ajustar contenido al div*/
-}
-table{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color:lightgray; /*table color*/
-  border-collapse: collapse;
-  /* border: 2px solid black; */
-  font-weight: bold;
+  display: inline-block;/*adapt content*/
 }
 .table-style td, .table-style th {
-  /* border: 1px solid black; */
   border-style: groove;
-  padding: 8px;
+  padding: 16px;
 }
 .table-style{
-  /* width: 430px; */
   width: 100%;
   max-width: 400px;
   table-layout: fixed;
+}
+#contenedor{
+  height: 300px;
+  width: 300px;
+  border-style: groove;
+  border-width: 2px;
 }
 
 

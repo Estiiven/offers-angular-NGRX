@@ -1,31 +1,36 @@
-.table-style {
-  border-collapse: collapse;
-  /* border: 2px solid black; */
-}
-.table-style td, .table-style th {
-  /* border: 1px solid black; */
-  border-style: groove;
-  padding: 8px;
-}
-#gen{
+#content-main {
   display: flex;
   text-align: center;
   justify-content: center;
-  width: 100%;
-
 }
-table{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color:lightgray;
+#content-table-name,
+#content-table-prices {
+  height: 250px;
+  border-style: groove;
+  border-width: 2px;
+  background-color: #ffffff;
+}
+#content-table-name {
+  width: 270px;
+}
+#content-table-prices{
+  width: 140px;
+}
+table {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
   border-collapse: collapse;
   font-weight: bold;
+  height: 250px;
 }
-#tabla, #tabla2{
-  /* width: 250px; */
+.table-style {
+  border-collapse: collapse;
   width: 100%;
   max-width: 400px;
   table-layout: fixed;
-
 }
-
-
+.table-style td,
+.table-style th {
+  border-style: groove;
+  padding: 8px;
+}

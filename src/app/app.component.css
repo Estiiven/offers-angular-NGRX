@@ -1,10 +1,12 @@
 .solid {
-  /* border: solid; */
   text-align: center;
 }
 .col-sm-6 {
   margin: 0;
   padding: 0;
+}
+.col-md-6{
+  margin-top: 25px;
 }
 #divprices{
   width: 95%;
@@ -26,7 +28,8 @@ body{
   margin-top: 30px;
 }
 select {
-  font-size: 93%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 35px;
   font-weight: bold;
   width: 100%;
   max-width: 400px;
