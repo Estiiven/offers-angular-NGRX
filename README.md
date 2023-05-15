@@ -1,8 +1,13 @@
-# APP OFERTAS
+## APP OFERTAS ANGULAR
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
+Este secillo proyecto fue realizado a partir del planteamiento de una prueba tecnica emitida por la empresa met net para el puesto de desarrollador angular, la cual se realiza unicamente con fines academicos. El planteamiento consta del enunciado y un archivo (ofertas.json) el cual esta alojado en el proyecto.
 
-## Development server
+El proyecto consta de tres componentes (Offer, Chacacteristics y Prices). En el componente de "Offer" se muestra el id de la oferta y el nombre de la oferta. En el componente de “Characteristics”, se detalla todas las características que tiene la oferta y en el componente “Prices” se listan los precios de la oferta y el monto. En una lista desplegable se listan los nombres de las ofertas y cada vez que se cambia la oferta se despliega la información en los componentes previamente mencionados.
+
+Para la comunicación del componente con la capa de servicios se implementó el patrón reducer, diferenciando cada uno de las capas requeridas Reducer, Effect, Action y  Selector.
+
+## Herramientas utilizadas para realización
+ANGULA11-
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
