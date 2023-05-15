@@ -1,7 +1,7 @@
 <div id="gen" *ngIf="offer">
   <div>
       <h3>Precios:</h3>
-      <div id="gen" style="height: 200px; width: 270px; border-style: groove; background-color: lightgray;">
+      <div id="gen" style="height: 200px; width: 270px; border-style: groove; border-width: 2px; background-color: lightgray;">
         <table class="table-style" id="tabla"
           *ngFor=" let aux of offer.versions">
         <tr *ngFor="let ite of aux.productOfferingPrices">
@@ -14,7 +14,7 @@
   </div>
   <div>
       <h3 id="title">Monto:</h3>
-      <div id="gen" style="height: 200px; width: 140px; border-style: groove; background-color: lightgray;">
+      <div id="gen" style="height: 200px; width: 140px; border-style: groove; border-width: 2px; background-color: lightgray;">
         <table class="table-style" id="tabla2"
           *ngFor=" let aux of offer.versions">
         <tr *ngFor="let ite of aux.productOfferingPrices">
