@@ -9,10 +9,6 @@ Para la comunicación del componente con la capa de servicios se implementó el 
 ## Herramientas utilizadas para realización
 ANGULAR 14
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
 ## Ejecución del proyecto
 
 Front-End: Dentro de la carpeta del proyecto ejecutar el comando "ng serve", luego en el navegador http://localhost:4200 
