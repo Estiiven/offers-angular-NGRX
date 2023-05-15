@@ -1,23 +1,27 @@
 ## APP OFERTAS ANGULAR
 
-Este secillo proyecto fue realizado a partir del planteamiento de una prueba tecnica emitida por la empresa met net para el puesto de desarrollador angular, la cual se realiza unicamente con fines academicos. El planteamiento consta del enunciado y un archivo (ofertas.json) el cual esta alojado en el proyecto.
+Este secillo proyecto fue realizado a partir deL planteamiento de una prueba técnica emitida por la empresa "metnet" para el puesto de desarrollador angular, la cual se realiza únicamente con fines académicos. El planteamiento consta del enunciado y un archivo (ofertas.json) el cual esta alojado en el proyecto.
 
 El proyecto consta de tres componentes (Offer, Chacacteristics y Prices). En el componente de "Offer" se muestra el id de la oferta y el nombre de la oferta. En el componente de “Characteristics”, se detalla todas las características que tiene la oferta y en el componente “Prices” se listan los precios de la oferta y el monto. En una lista desplegable se listan los nombres de las ofertas y cada vez que se cambia la oferta se despliega la información en los componentes previamente mencionados.
 
 Para la comunicación del componente con la capa de servicios se implementó el patrón reducer, diferenciando cada uno de las capas requeridas Reducer, Effect, Action y  Selector.
 
 ## Herramientas utilizadas para realización
-ANGULA11-
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+ANGULAR11
 
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Ejecución del proyecto
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Front-End: Dentro de la carpeta del proyecto ejecutar el comando "ng serve", luego en el navegador http://localhost:4200 
+API: dentro de la carpeta de la api ejecutar el comando "node src".
+
+## Apariencia - Funcionamiento
+
+
+
 
 ## Running unit tests
 
