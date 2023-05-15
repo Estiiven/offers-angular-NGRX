@@ -2,6 +2,8 @@
 
 Este secillo proyecto fue realizado a partir deL planteamiento de una prueba técnica emitida por la empresa "metnet" para el puesto de desarrollador angular, la cual se realiza únicamente con fines académicos. El planteamiento consta del enunciado y un archivo (ofertas.json) el cual esta alojado en el proyecto.
 
+![prueba](https://github.com/Estiiven/offers-angular-NGRX/assets/48731786/badf851d-ed8e-4ce9-bf0b-ecf103eb8563)
+
 El proyecto consta de tres componentes (Offer, Chacacteristics y Prices). En el componente de "Offer" se muestra el id de la oferta y el nombre de la oferta. En el componente de “Characteristics”, se detalla todas las características que tiene la oferta y en el componente “Prices” se listan los precios de la oferta y el monto. En una lista desplegable se listan los nombres de las ofertas y cada vez que se cambia la oferta se despliega la información en los componentes previamente mencionados.
 
 Para la comunicación del componente con la capa de servicios se implementó el patrón reducer, diferenciando cada uno de las capas requeridas Reducer, Effect, Action y  Selector.
